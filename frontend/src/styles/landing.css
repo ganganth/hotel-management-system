@@ -1,0 +1,57 @@
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../../public/img/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.landingPage-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(37, 255, 226, 1), rgba(37, 255, 226, 1), rgba(37, 255, 226, .9), rgba(37, 255, 226, .8), rgba(37, 255, 226, 0.5), rgba(37, 255, 226, 0.0));
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 0px 100px 100px;
+}
+
+.landingPage-content-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: #333;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.landingPage-content-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.landingPage-content-btn {
+    padding: 8px 50px;
+    background: transparent;
+    border: 3px solid #333;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.landingPage-content-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
